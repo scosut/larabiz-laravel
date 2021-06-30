@@ -1,0 +1,31 @@
+$icon-font-path: "/public/fonts/vendor/bootstrap-sass/bootstrap/";
+
+.bg-flex {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.navbar {
+  border-radius: 0 !important;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+textarea {
+  resize: none;
+}
